@@ -1,9 +1,16 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .logo {
   text-decoration: none;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   text-align: left;
+  margin-right: 93px;
 }
 
 .logo:visited {
@@ -16,6 +23,8 @@
 
 .nav-list {
   list-style: none;
+  display: flex;
+  gap: 45px;
 }
 
 .nav-link {
@@ -199,4 +208,21 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+}
+
+.header-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-flex-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.logo-nav-container {
+  display: flex;
+  align-items: center;
+  margin-right: 370px;
 }
